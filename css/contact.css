@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.in ul {
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+
+.i1 {
+    border-radius: 1em;
+    width: 300px;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    background-color: #cda274;
+    left: -240px;
+    top: -370px;
+}
+
+.i2 {
+    padding: 10px;
+    font-weight: 1000;
+    width: 300px;
+    background-color: rgb(201, 192, 211);
+    border-radius: 1em;
+    font-size: 26px;
+    color: #F5F5F7;
+    position: relative;
+    left: -240px;
+    top: -360px;
+}
+
+.clear {
+    clear: both;
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+#footer {
+    margin-left: 0px;
+    margin-top: -2px;
+    background-color: #999999;
+    padding: 20px;
+    width: 960px;
+    min-height: 200px;
+}
+
+#footer ul {
+    padding: 30px;
+    list-style-type: none;
+}
